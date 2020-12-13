@@ -33,27 +33,7 @@ public class FractalExplorer {
         frame.pack();
         frame.setVisible(true);
         frame.setResizable(false);
-        /*JFrame frame = new JFrame("Mandelbrot");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        frame.getContentPane().add(jImageDisplay, BorderLayout.CENTER);
-
-        Button drawButton = new Button("Draw");
-        drawButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                generator.getInitialRange(range);
-                drawFractal();
-            }
-        });
-
-        frame.getContentPane().add(new Button("Draw"), BorderLayout.SOUTH);
-
-        frame.pack();
-        frame.setVisible(true);
-        frame.setResizable(false);
-
-         */
+       
     }
 
     private void drawFractal() {
