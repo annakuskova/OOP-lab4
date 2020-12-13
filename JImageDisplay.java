@@ -28,24 +28,14 @@ public class JImageDisplay extends JComponent {
         Graphics2D imageGraphics = image.createGraphics();
         imageGraphics.setColor(new Color(0,0,0));
         imageGraphics.fillRect(0,0,image.getWidth(), image.getHeight());
-        /*for (int x = 0; x < image.getWidth(); x++) {
-            for (int y = 0; y < image.getHeight(); y++) {
-                image.setRGB(x, y, 0);
-            }
-        }*/
+        
     }
 
     public void drawPixel(int x, int y, int rgbColor) {
         image.setRGB(x, y, rgbColor);
     }
 
-    /*public void setInitialColor() {
-        for (int x = 0; x < image.getWidth(); x++) {
-            for (int y = 0; y < image.getHeight(); y++) {
-                image.setRGB(x, y, 1);
-            }
-        }
-    }*/
+   
 
 
 }
